@@ -1,0 +1,15 @@
+runtime: php81
+
+runtime_config: document_root: public
+
+# Ensure we skip ".env", which is only for local development
+skip_files: 
+    - .env
+
+env_variables:
+    APP_DEBUG: true
+    APP_ENV: production
+    APP_KEY: base64:cdfj2ciS/aVVuBMyooScg9kXoULq6Isujkka976Q7FM=
+    APP_NAME: "GCP App - CODE"
+
+    LOG_LEVEL: debug
