@@ -1,9 +1,5 @@
 runtime: php81
 
-# Ensure we skip ".env", which is only for local development
-skip_files: 
-    - .env
-
 env_variables:
     APP_DEBUG: true
     APP_ENV: production
